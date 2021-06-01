@@ -1265,3 +1265,30 @@ body {
 .news-categories .icon-settings {
   padding-left: 10px;
 }
+
+/* ----------------- News List ------------------ */
+.news-list {
+  margin-top: 50px;
+}
+.news-list h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.news-list .news-list-show {
+  margin-top: 20px;
+  border: 2px solid #047bd5;
+}
+.news-list .news-list-show a {
+  text-decoration: none;
+}
+.news-list .news-list-show h6 {
+  color: #000;
+  font-weight: 800;
+  padding-top: 10px;
+  font-size: 24px;
+}
+.news-list .news-list-show p {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.651);
+  padding-top: 10px;
+}
