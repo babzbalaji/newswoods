@@ -6,7 +6,15 @@ body {
   background-color: #f3f8fb;
   font-family: "Mukta Malar", sans-serif;
 }
-
+.container {
+  padding: 0px;
+}
+@media (max-width: 800px) {
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
 /* -----------------------  Top Navbar ----------------- */
 .top-nav {
   padding-top: 10px;
@@ -79,7 +87,8 @@ body {
 .site-navbar .site-navigation .site-menu > li > a {
   padding: 0px 0px;
   color: #000;
-  font-size: 16px;
+  font-size: 19px;
+  font-weight: 800;
   text-decoration: none !important;
 }
 .site-navbar .site-navigation .site-menu > li > a > span {
@@ -1220,7 +1229,6 @@ body {
 }
 .news-body img {
   width: 100%;
-  padding-top: 30px;
 }
 .news-body .col-8 {
   padding: 20px;
@@ -1237,13 +1245,15 @@ body {
   padding-top: 20px;
 }
 .news-related {
-  margin-top: 10px;
-  border: 2px solid #047bd5;
+  margin-top: 20px;
+  padding: 2px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 12%);
+  border-radius: 5px;
 }
 .news-body h3 {
   color: #047bd5;
   font-weight: 800;
-  padding-top: 20px;
+  padding-top: 30px;
 }
 .news-related h5 {
   font-weight: 800;
@@ -1260,6 +1270,19 @@ body {
   border-radius: 7px;
   text-decoration-line: none;
   color: #000;
+}
+.news-view-tags .container {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #047ad533;
+}
+.news-view-tags a {
+  font-size: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.news-view-tags h4 {
+  font-size: 16px;
 }
 
 @media (max-width: 800px) {
@@ -1280,7 +1303,7 @@ body {
 }
 .news-list .news-list-show {
   margin-top: 20px;
-  border: 2px solid #047bd5;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 12%);
 }
 .news-list .news-list-show a {
   text-decoration: none;
@@ -1295,4 +1318,8 @@ body {
   font-size: 16px;
   color: rgba(0, 0, 0, 0.651);
   padding-top: 10px;
+}
+.news-list h4 {
+  color: #047bd5;
+  font-weight: 800;
 }
